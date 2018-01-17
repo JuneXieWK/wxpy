@@ -1,3 +1,7 @@
+Quick Tip:
+Check the test.py under tests folder.
+
+
 wxpy: 用 Python 玩微信
 ==============================
 
