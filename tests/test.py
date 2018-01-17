@@ -20,6 +20,7 @@ def auto_accept_friends(msg):
     if 'wxpy' in msg.text.lower():
         # 接受好友 (msg.card 为该请求的用户对象)
         new_friend = bot.accept_friend(msg.card)
+        #It seems like the first message have to be text message, if send video first, then user could receive.
         new_friend.send('Hello World!')
         # 或 new_friend = msg.card.accept()
         # Send Video right after accepting
